@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter";
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      background: hsl(0, 0%, 8%);
+      display: grid;
+      place-content: center;
+    }
+
+    .body {
+      width: 1440px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .container {
+      width: 25%;
+      background: hsl(0, 0%, 12%);
+      padding: 30px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .container img {
+      border-radius: 50%;
+      width: 30%;
+      margin-bottom: 30px;
+    }
+
+    .container .name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 10px;
+    }
+    
+    .container .location {
+      font-size: 15px;
+      font-weight: 600;
+      color: hsl(75, 94%, 57%);
+      margin-bottom: 20px;
+    }
+    
+    .container .job {
+      font-size: 14px;
+      font-weight: 400;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 20px;
+    }
+
+    .container .social-media {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .container .social-media button {
+      background: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      font-size: 14px;
+      font-weight: 700;
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      transition: 0.2s;
+    }
+    
+    .container .social-media button:hover {
+      background: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media (max-width: 450px) {
+      .body {
+        width: 375px;
+      }
+
+      .container {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="body">
+    <div class="container">
+      <img src="assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
+      <span class="name">Jessica Randall</span>
+      <span class="location">London, United Kingdom</span>
+      <span class="job">"Front-end developer and avid reader."</span>
+      <div class="social-media">
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <br>Coded by <a href="https://www.frontendmentor.io/profile/CodeItOfficial" target="_blank">@CodeItOfficial</a>.
+  </div>
+</body>
+</html>
