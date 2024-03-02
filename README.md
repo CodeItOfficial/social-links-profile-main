@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here!](https://your-solution-url.com)
+- Solution URL: [Click here!](https://www.frontendmentor.io/solutions/social-links-profile-2IwuYOjWFs)
 - Live Site URL: [Click here!](https://social-links-profile-main-phi.vercel.app/)
 
 ## My process
